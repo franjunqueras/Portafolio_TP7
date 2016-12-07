@@ -68,6 +68,7 @@ main #home {
 	display: inline-block;
 	vertical-align: top;
 	padding: 20px 5px;
+	border-bottom: 1px solid bisque;
 }
 
 header nav ul .txt-menu {
@@ -124,12 +125,12 @@ main #portafolio .container-galeria {
 	display: flex;
 	align-items: center;
 	flex-flow: row wrap;
-	width: 65%;
+	width: 70%;
 	margin: 0 auto;
 }
 
 main #portafolio .container-galeria .img-trabajo {
-	width: 31%;
+	width: 29%;
 	margin: 0 10px 20px 10px;
 }
 
@@ -243,10 +244,25 @@ textarea {
 	cursor: pointer;
 }
 
-@media (min-width: 550px) and (max-width: 768px) {
+@media (min-width: 600px) and (max-width: 768px) {
 
-	header nav ul .logo {
-		width: 
+	main #portafolio .container-galeria {
+		width: 80%;
+	}
+
+	main #portafolio .container-galeria .img-trabajo {
+		width: 46%;
+		margin: 0 10px 20px 10px;
+	}
+
+	main #sobre-mi figure {
+		background-color: darksalmon;
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+		overflow: hidden;
+		margin: 0 50px;
+
 	}
 } 
 
